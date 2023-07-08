@@ -200,15 +200,15 @@ main section {
     color: #474747;
 
     font-size: 30px;
-    
+
     font-weight: 700;
 }
 
 .resume-item-title {
     color: #474747;
-    
+
     font-size: 25px;
-    
+
 
     font-weight: 700;
 }
@@ -217,7 +217,7 @@ main section {
     color: #757575;
 
     font-size: 20px;
-margin-bottom: 25px;
+    margin-bottom: 25px;
     font-weight: 600;
 }
 
@@ -228,7 +228,32 @@ margin-bottom: 25px;
     line-height: 28px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer style */
+
+footer {
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 130px 210px;
+    margin-top: 100px;
+}
+
+.footer-coloumn {
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }

@@ -68,14 +68,13 @@ header {
 
     font-weight: 700;
 }
+
 .section-description {
+    color: #757575;
     text-align: center;
-
-    font-size: 18px;
-
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 18px;;
 }
+
 
 
 /* headder stlyes */
@@ -128,3 +127,18 @@ header {
     background: #FFF8F3;
 }
 
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+    color: #757575;
+   
+    font-weight: 400;
+}
+#what-i-do{
+    padding: 30px 386px;
+}
+    

@@ -246,6 +246,11 @@ footer {
 .footer-coloumn {
     width: 50%;
 }
+.socialmedia-link a{
+   padding: 5px 15px;
+   margin: 40px;
+   margin-right: 50px;
+}
 .contact input[type="text"], .contact input[type="email"],
 textarea {
     display: block;
